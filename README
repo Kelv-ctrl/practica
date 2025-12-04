@@ -1,0 +1,53 @@
+
+# Task List GitHub Demo (HTML, CSS, JavaScript)
+
+Este es un pequeño proyecto web para practicar:
+
+- Uso básico de Git
+- Ramas (branches)
+- Pull Requests
+- Merge en GitHub
+
+La aplicación es una **lista de tareas** donde puedes:
+
+- Agregar nuevas tareas
+- Marcar tareas como completadas
+- Eliminar tareas
+
+---
+
+## 1. Estructura del proyecto
+
+text
+task_list_github_demo/
+├─ index.html
+├─ styles.css
+├─ script.js
+├─ .gitignore
+└─ README.md
+# Task List GitHub Demo (HTML, CSS, JavaScript)
+
+Este es un pequeño proyecto web para practicar:
+
+- Uso básico de Git
+- Ramas (branches)
+- Pull Requests
+- Merge en GitHub
+
+La aplicación es una **lista de tareas** donde puedes:
+
+- Agregar nuevas tareas
+- Marcar tareas como completadas
+- Eliminar tareas
+
+---
+
+## 1. Estructura del proyecto
+
+```text
+task_list_github_demo/
+├─ index.html
+├─ styles.css
+├─ script.js
+├─ .gitignore
+└─ README.md
