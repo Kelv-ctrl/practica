@@ -1,0 +1,160 @@
+/* ------------------------------ */
+/* ESTILO ORIGINAL                */
+/* ------------------------------ */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+body {
+    background: #0f172a;
+    color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    background: #020617;
+    border-radius: 16px;
+    padding: 24px;
+    width: 95%;
+    max-width: 480px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+    font-size: 1.8rem;
+    margin-bottom: 8px;
+}
+
+.subtitle {
+    font-size: 0.9rem;
+    color: #9ca3af;
+    margin-bottom: 16px;
+}
+
+.task-input {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 20px;
+}
+
+#taskInput {
+    flex: 1;
+    padding: 8px 10px;
+    border-radius: 8px;
+    border: 1px solid #1e293b;
+    background: #020617;
+    color: #e5e7eb;
+}
+
+#taskInput::placeholder {
+    color: #6b7280;
+}
+
+#addTaskBtn {
+    padding: 8px 14px;
+    border-radius: 8px;
+    border: none;
+    background: #6366f1;
+    color: white;
+    cursor: pointer;
+    font-weight: 500;
+    transition: transform 0.1s ease, box-shadow 0.1s ease;
+}
+
+#addTaskBtn:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(99, 102, 241, 0.6);
+}
+
+.task-list h2 {
+    margin-bottom: 8px;
+    font-size: 1.1rem;
+}
+
+#taskList {
+    list-style: none;
+}
+
+.task-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #020617;
+    border: 1px solid #1e293b;
+    border-radius: 10px;
+    padding: 8px 10px;
+    margin-bottom: 8px;
+}
+
+
+.task-title {
+    font-size: 0.95rem;
+}
+
+.task-title.done {
+    text-decoration: line-through;
+    color: #6b7280;
+}
+
+.task-actions button {
+    border: none;
+    border-radius: 6px;
+    padding: 4px 8px;
+    font-size: 0.8rem;
+    cursor: pointer;
+}
+
+.btn-complete {
+    background: #22c55e;
+    color: #022c22;
+}
+
+.btn-complete:hover {
+    background: #16a34a;
+}
+
+.btn-delete {
+    background: #ef4444;
+    color: #450a0a;
+    margin-left: 4px;
+}
+
+.btn-delete:hover {
+    background: #dc2626;
+}
+
+.hint {
+    margin-top: 12px;
+    font-size: 0.8rem;
+    color: #9ca3af;
+}
+
+/* ------------------------------ */
+/* ESTILOS NUEVOS COMENTADOS      */
+/* ------------------------------ */
+
+/*
+#clearCompletedBtn {
+    margin-top: 10px;
+    width: 100%;
+    padding: 8px 10px;
+    border-radius: 8px;
+    border: none;
+    background: #f97316;
+    color: #451a03;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+
+#clearCompletedBtn:hover {
+    background: #ea580c;
+}
+
